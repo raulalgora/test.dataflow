@@ -40,4 +40,4 @@ substitutions:
   _FIRESTORE_COLLECTION_NAME_: vehicle_telemetry_data
   _OUTPUT_PUBSUB_TOPIC_NAME: projects/alpine-alpha-447114-n9/topics/output_topic
   _IMAGE_API_URL: https://europe-southwest1-serverless-edem.cloudfunctions.net/getTrafficImages
-  _SYSTEM_ID: Raul
+  _SYSTEM_ID: Raul algora

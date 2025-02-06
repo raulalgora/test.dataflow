@@ -34,9 +34,9 @@ substitutions:
   _ARTIFACT_REGISTRY_IMAGE_NAME: dataflow
   _DATAFLOW_PYTHON_FILE_PATH: edem_dataflow_pipeline.py
   _DATAFLOW_REQUIREMENTS_FILE_PATH: requirements.txt
-  _BATTERY_PUBSUB_SUBSCRIPTION_NAME: projects/alpine-alpha-447114-n9/topics/battery_telemetry_topic
-  _DRIVING_PUBSUB_SUBSCRIPTION_NAME: projects/alpine-alpha-447114-n9/topics/driving_telemetry_topic
-  _ENVIRONMENT_PUBSUB_SUBSCRIPTION_NAME: projects/alpine-alpha-447114-n9/topics/environment_telemetry_topic
+  _BATTERY_PUBSUB_SUBSCRIPTION_NAME: projects/alpine-alpha-447114-n9/subscriptions/battery_telemetry_topic-sub
+  _DRIVING_PUBSUB_SUBSCRIPTION_NAME: projects/alpine-alpha-447114-n9/subscriptions/driving_telemetry_topic-sub
+  _ENVIRONMENT_PUBSUB_SUBSCRIPTION_NAME: projects/alpine-alpha-447114-n9/subscriptions/environment_telemetry_topic-sub
   _FIRESTORE_COLLECTION_NAME_: vehicle_telemetry_data
   _OUTPUT_PUBSUB_TOPIC_NAME: projects/alpine-alpha-447114-n9/topics/output_topic
   _IMAGE_API_URL: https://europe-southwest1-serverless-edem.cloudfunctions.net/getTrafficImages

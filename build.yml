@@ -29,7 +29,7 @@ substitutions:
   _DATAFLOW_BASE_BUCKET: dataflow_raulalgora
   _DATAFLOW_JOB_NAME: raul
   _DATAFLOW_TEMPLATE_NAME: dataflow_raulalgora
-  _REGION_ID: europe-southwest1
+  _REGION_ID: europe-southwest6
   _ARTIFACT_REGISTRY_REPOSITORY: gcp
   _ARTIFACT_REGISTRY_IMAGE_NAME: dataflow
   _DATAFLOW_PYTHON_FILE_PATH: edem_dataflow_pipeline.py
